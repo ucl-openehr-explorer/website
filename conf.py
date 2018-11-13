@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Team 27 Website'
+project = 'UCL openEHR Explorer Website'
 copyright = '2018, Leo McArdle, Chris Rios, Daniel Min'
 author = 'Leo McArdle, Chris Rios, Daniel Min'
 

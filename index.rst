@@ -1,5 +1,5 @@
-Welcome to Team 27's Website
-==========================
+Welcome to UCL openEHR Explorer Website
+=========================================
 
 .. toctree::
    :maxdepth: 2
