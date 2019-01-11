@@ -1,15 +1,24 @@
 Glossary
 ========
 
+openEHR
+-------
+Open source standard for storing and handling EHRs.
+
 EHR
 ---
-Electronic Health Record.
+Electronic Health Record:
     A collection of digitalised information about a patient(s).
 
 CDR
 ---
-Clinical Data Repository. 
+Clinical Data Repository:
     A place where patients' EHRs are stored.
+
+AQL
+---
+Archetype Query Language:
+    The query language used on CDRs.
 
 Federate
 --------
@@ -21,6 +30,4 @@ This is useful for the following requests:
 
 Zoom
 ----
-An online communacations and conferencing software that uses cloud computing. Provides services such as video conferencing, online chats, mobile contributions, etc.
-
-
+An online communications and conferencing software that uses cloud computing. Provides services such as video conferencing, online chats, mobile contributions, etc.

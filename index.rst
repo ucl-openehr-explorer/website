@@ -10,7 +10,11 @@ Welcome to UCL openEHR Explorer Website
    hci
    prototype
    glossary
-   references
+
+Abstract
+--------
+
+An open source application to query openEHR CDRs, targeted at developers working in a clinical context. Will be able to query multiple CDRs concurrently and federate their results.
 
 Team Members
 ------------

@@ -1,31 +1,45 @@
-Prototype
-=========
+First Prototype
+===============
 
-Link to Prototypes
------------------------
+System Architecture
+-------------------
 
-https://projects.invisionapp.com/share/V9OIKT03CQS#/screens/325133873_Select_Cdr
+We decided to separate out the project into two components to make developing them concurrently easier, to make testing easier in isolation, and finish the project with deliverables which are maximally useful to the openEHR ecosystem.
 
-First Iteration of Prototype
-----------------------------
+.. image:: images/prototype_system_architecture.png
 
-From the gathrered requirements and the sketches produced, we were able to create our first iteration of a prototype:
+CDR Query Library
+-----------------
 
-.. image:: images/sketchToProto.png
+`Initial prototype source code <https://github.com/ucl-openehr-explorer/openehr-cdr-query/tree/eba929b8cc92a45b6cded642a9457be24b78d95a>`_.
 
-Feedback of First Prototype
----------------------------
+To handle retrieving data from CDRs, federating it, and committing new data to CDRs. In this initial prototype all that the library is able to do is send an AQL query to one or multiple CDRs, and concatenate their results.
 
-After we had completed the first prototype of the HCI, we allowed our potential users to experiment with it and give feedback on the first version.
+However it's been built with modern development practices, which makes extending this functionality incredibly simple:
 
-.. image:: images/feedbackOne.png
+- We followed a test driven development methodology, so the code is thoroughly tested:
 
-Then, the group once again drew further sketches on a section of the solution that we had previously missed out - manipulation and the visualisation of the results data.
+.. image:: images/prototype_travis.png
+   :target: https://travis-ci.org/ucl-openehr-explorer/openehr-cdr-query/builds/478416742?utm_source=github_status&utm_medium=notification
 
+- We used JSDoc and documentation.js to generate extensive API documentation for the code:
 
-Second Iteration of Prototype
------------------------------
+.. image:: images/prototype_docs.png
+   :target: https://github.com/ucl-openehr-explorer/openehr-cdr-query/tree/eba929b8cc92a45b6cded642a9457be24b78d95a#api
 
-Using the feedback and the new set of sketches, we were able to build upon the first prototype to expand its features.
+- We used the latest and greatest additions to JavaScript (ES6 modules, Promises, the Fetch API, among others), utilising Babel to make them backwards compatible with older JavaScript engines and versions of Node.js
 
-.. image:: images/firstToSecond.png
+By building this library in isolation from the Electron app, we give developers in the openEHR ecosystem the option of incorporating this library into their own projects.
+
+While in its prototype phase it only runs in Node.js, with only a little work it could be made to work in the browser too.
+
+Electron App
+------------
+
+`Initial prototype source code <https://github.com/ucl-openehr-explorer/electron-app/tree/aee92465da20285038f4539700db745d0bb454dd>`_.
+
+The Electron app utilises the CDR Query Library to provide a GUI which users can use to query CDRs.
+
+.. image:: images/prototype_gui.png
+
+In this initial prototype, users can add CDRs, send an AQL query to a subset of them, and get the raw data back.
