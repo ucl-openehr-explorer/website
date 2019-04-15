@@ -19,6 +19,14 @@ An open source application to query openEHR CDRs, targeted at developers working
 Team Members
 ------------
 
-- Leo McArdle
-- Christian Martin Rios
-- Daniel Kyung-Hwan Min
+- Leo McArdle - leo.mcardle.17@ucl.ac.uk
+
+The Team Leader, Back-end Developer.
+
+- Christian Martin Rios - chris.rios.17@ucl.ac.uk
+
+Front-end Developer.
+
+- Daniel Kyung-Hwan Min - daniel.min.17@ucl.ac.uk
+
+Secondary Front-end Developer.
