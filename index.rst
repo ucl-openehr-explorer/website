@@ -14,7 +14,23 @@ Welcome to UCL openEHR Explorer Website
 Abstract
 --------
 
-An open source application to query openEHR CDRs, targeted at developers working in a clinical context. Will be able to query multiple CDRs concurrently and federate their results.
+openEHR Explorer is an open-source application to query openEHR CDRs, targeted at developers working in a clinical context.
+Previously, developers did not have a standardised method of querying, and openEHR Explorer was created to solve the problem.
+openEHR Explorer is able to query multiple CDRs concurrently with a single AQL query and federate their results into a table.
+
+Key Features
+------------
+
+- Login system to accomodate multiple users with different lists of CDRs.
+
+- Supports authentication of CDRs from multiple vendors.
+
+- One AQL to query one or more CDRs at once and federate results into a table.
+
+Demonstration Video
+-------------------
+
+The video can be found at: https://youtu.be/jmtJvnSaQUg
 
 Team Members
 ------------
