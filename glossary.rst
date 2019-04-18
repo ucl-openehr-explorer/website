@@ -3,7 +3,7 @@ Glossary
 
 openEHR
 -------
-Open source standard for storing and handling EHRs.
+Open source standard for storing and handling EHRs. `Official Website <https://www.openehr.org/>`_, `What is openEHR? <https://www.openehr.org/about/what_is_openehr>`_
 
 EHR
 ---
@@ -20,10 +20,15 @@ AQL
 Archetype Query Language:
     The query language used on CDRs.
 
+CORS
+----
+Cross-Platform Resource Sharing:
+    a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
+
 Federate
 --------
 Combine data from multiple sources, in this context multiple CDRs.
-This is useful for the following requests:
+This is useful for the following requests(situations):
 
 * "I don't care what CDR this data lives in, I just want a list of blood pressures for this patient regardless of whether they were taken at the GP or hospital."
 * "Give me every patient with hypothyroidism across 12 London hospitals."
