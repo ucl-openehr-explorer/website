@@ -9,13 +9,15 @@ Welcome to UCL openEHR Explorer Website
    research
    hci
    prototype
+   evaluation
+   management
    glossary
 
 Abstract
 --------
 
-openEHR Explorer is an open-source application to query openEHR CDRs, targeted at developers working in a clinical context.
-Previously, developers did not have a standardised method of querying, and openEHR Explorer was created to solve the problem.
+openEHR Explorer is an open-source application to query openEHR CDRs, targeted at developers working in a clinical context. 
+Previously, developers did not have a standardised method of querying, and openEHR Explorer was created to solve the problem. 
 openEHR Explorer is able to query multiple CDRs concurrently with a single AQL query and federate their results into a table.
 
 Key Features
@@ -37,12 +39,18 @@ Team Members
 
 - Leo McArdle - leo.mcardle.17@ucl.ac.uk
 
-The Team Leader, Back-end Developer.
+Team Leader, Back-end Developer, Client Liason.
+
+.. image:: images/leo.jpg
 
 - Christian Martin Rios - chris.rios.17@ucl.ac.uk
 
-Front-end Developer.
+Front-end Developer, Deputy Leader, Research.
+
+.. image:: images/chris.jpg
 
 - Daniel Kyung-Hwan Min - daniel.min.17@ucl.ac.uk
 
-Secondary Front-end Developer.
+Secondary Front-end Developer, Editor, UI Design.
+
+.. image:: images/daniel.png
