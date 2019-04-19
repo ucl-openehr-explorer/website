@@ -20,6 +20,15 @@ AQL
 Archetype Query Language:
     The query language used on CDRs.
 
+Archetype
+---------
+Little chunks of medical record.
+    e.g. Medication orders, blood tests, etc.
+
+Templates
+---------
+Templates are a defined data set created by multiple archetypes as components. They are built independantly of CDRs.
+
 CORS
 ----
 Cross-Platform Resource Sharing:

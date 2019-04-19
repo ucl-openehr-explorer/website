@@ -66,7 +66,8 @@ Possible Features in the Future - Could Haves
 +-----------------------------------------------------------------+----------------+
 |Authentication to support multipler users                        |Non-Functional  |
 +-----------------------------------------------------------------+----------------+
-
+|Generation of AQL from interaction with templates                |Functional      |
++-----------------------------------------------------------------+----------------+
 Use Cases
 ---------
 
