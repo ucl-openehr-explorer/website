@@ -8,7 +8,8 @@ Welcome to UCL openEHR Explorer Website
    requirements
    research
    hci
-   prototype
+   design
+   testing
    evaluation
    management
    glossary
