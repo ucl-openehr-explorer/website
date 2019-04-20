@@ -13,21 +13,15 @@ implementation of the HCI:
 
 - Shortcuts for frequent users
 
- - While a simple and consistent design provides advantages for new users, frequent users may find this to be repetitive in 
- certain parts of the system. We have therefore minimised screen movement in our system to allow the user to carry out similar
- tasks in quick succession.
+ - While a simple and consistent design provides advantages for new users, frequent users may find this to be repetitive in certain parts of the system. We have therefore minimised screen movement in our system to allow the user to carry out similar tasks in quick succession.
 
 - Easy revesal of actions
 
- - It is always possible that even an experienced user will carry out an incorrect action, and being able to easily revert any
- changes in the system will provide relief for the user - for example in openEHR Explorer, a wrong CDR might be added; 
- we have therefore allowed the user to easily remove any CDRs that is unnecessary/incorrect.
+ - It is always possible that even an experienced user will carry out an incorrect action, and being able to easily revert any changes in the system will provide relief for the user - for example in openEHR Explorer, a wrong CDR might be added; we have therefore allowed the user to easily remove any CDRs that is unnecessary/incorrect.
 
 - Reduce short-term memory load
 
- - 'limitation of human information processing in short-term memory requires that displays be kept simple' - the team has followed
- Shneiderman's statement and has reduced multiple page displays as much as possible, condensing the crucial functions of the system
- to be contained within a single page.
+ - 'limitation of human information processing in short-term memory requires that displays be kept simple' - the team has followed Shneiderman's statement and has reduced multiple page displays as much as possible, condensing the crucial functions of the system to be contained within a single page.
 
 Initial Sketches
 ----------------
