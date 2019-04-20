@@ -110,11 +110,16 @@ In this initial prototype, users can add CDRs, send an AQL query to a subset of 
 
 Implementation of Key Functionalities in Deliverable Version
 ------------------------------------------------------------
-Need to expand this later.
 
 - Login system for users with different lists of CDRs
+    - Different users will have their own lists of CDRs they wish to query - openEHR Explorer can accommodate this problem.
 - AQL querying to multiple CDRs
+    - The existing solution only allows the user to query a single CDR - openEHR Explorer allows querying of multiple CDRs at once.
 - Return results from multiple CDRs in one federated JSON tree
+    - The client and users have expressed that they would like to see all the results combined into one.
 - Creating a table from the JSON tree for greater readability
+    - While JSON trees are human-readable, a table can be used with ease by users with little previous experience.
 - Adding CDRs from multiple vendors with different authentication systems
+    - Further strengthens the ability to query multiple CDRs at once.
 - Removing saved CDRs from list
+    - User can easily remove any unused CDRs or CDRs with incorrect credentials from the list, preventing cluttering.

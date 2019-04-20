@@ -5,7 +5,8 @@ Background
 ----------
 openEHR - pronounced 'open air' - is an open specification for storing patient data used by clinicans and developers working in clinical contexts. 
 However clinical data are often messy and mixed up, and each clinical application had its own models, so moving data was very hard. 
-Everyone was building their models over and over again which kept causing problems. A new standard api to send models to but abstract data away from the database layer was needed. 
+Everyone was building their models over and over again which kept causing problems. A new standard api to send models to but abstract data away from the database layer was needed.
+Furthermore, this meant that only one CDR could be queried at once, which slowed down the work of the developers in the field.
 
 Gathering Requirements
 ----------------------

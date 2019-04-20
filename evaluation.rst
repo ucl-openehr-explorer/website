@@ -116,3 +116,4 @@ Other possible future implementations include:
 - Deleting multiple CDRs at once
 - Allowing user to alter the layout of openEHR Explorer
 - More extensive use of the top navigation bar
+- Export the generated table to a saveable file
