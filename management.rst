@@ -72,4 +72,7 @@ For instructions in greater detail, please refer to the README.md in the GitHub 
 Gantt Chart
 -----------
 
-Add Gantt Chart here
+.. image:: images/gantt_chart.png
+
+Download: `Excel <https://liveuclac-my.sharepoint.com/:x:/g/personal/zcablgp_ucl_ac_uk/EddD4HbUD4FEkKlI08mMlSoBrbcgmvjpi20g7Fau6najTw?e=5dupZP>`_,
+`PDF <https://liveuclac-my.sharepoint.com/:b:/g/personal/zcablgp_ucl_ac_uk/EZ0I4KjFKAJJlBiKSTcBNjcB_j77-0zpusPvz3PzjyynXQ?e=uyJjf8>`_.
