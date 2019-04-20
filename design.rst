@@ -12,7 +12,7 @@ in isolation, and finish the project with deliverables which are maximally usefu
 Page Flow Diagram
 -----------------
 
-Add page flow diagram here
+.. image:: images/page_flow_diagram.png
 
 Design Patterns
 ---------------
